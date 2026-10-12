@@ -17,3 +17,5 @@ The bootstrap preserves the initiating Windows account when a different administ
 This bootstrap pins release `v2026.10.12` and its script/setup hashes. It does not implement unattended future updates. No API administrator token, SSH credential, Vault recovery key, or live database belongs in this repository.
 
 Verified on 2026-10-12 on a fresh Windows 11 lab VPS: the GitHub command completed a full installation with AutoSuccess, both DIG services Running / Automatic / LocalSystem, and an independently verified same-machine backend receipt. The test ran in Administrator PowerShell.
+
+PDF Install button: [Download DIG-GitHub-Install.pdf](https://github.com/dillionharper635/dig-installer/releases/download/v2026.10.12/DIG-GitHub-Install.pdf). Click Install DIG, open the downloaded DIG-Install.bat, and approve Windows prompts if asked. The PDF opens a download; it does not run PowerShell inside the PDF viewer.
