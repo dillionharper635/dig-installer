@@ -15,3 +15,5 @@ Requires Windows 10/11 or Windows Server 2019+ x64 with curl.exe and access to G
 The bootstrap preserves the initiating Windows account when a different administrator approves elevation. It accepts no arbitrary package, command, or target from a web page. Logs are kept in the displayed Program Files staging directory.
 
 This bootstrap pins release `v2026.10.12` and its script/setup hashes. It does not implement unattended future updates. No API administrator token, SSH credential, Vault recovery key, or live database belongs in this repository.
+
+Verified on 2026-10-12 on a fresh Windows 11 lab VPS: the GitHub command completed a full installation with AutoSuccess, both DIG services Running / Automatic / LocalSystem, and an independently verified same-machine backend receipt. The test ran in Administrator PowerShell.
